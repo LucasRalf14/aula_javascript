@@ -1,7 +1,37 @@
-function soma(n1, n2) {
-    return n1 + n2;
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"))
+   // alert("Obrgado por clicar!")
 }
 
+function redirecionar(){
+     window.open("https://www.google.com.br/");
+    //window.location.href = "https://google.com.br/";
+}
+
+function trocar(elemento){
+   //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+   elemento.innerHTML = "Obrigado por passar o mouse";
+   //alert("Trocar texto");
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+/*
+function soma(n1, n2) {
+    return n1 + n2;
+}*/
+/*
 function validaIdade(idade){
     var validar;
     if(idade >= 18){
@@ -13,7 +43,7 @@ function validaIdade(idade){
 }
 var idade = prompt("Qual a sua idade?");
 console.log(validaIdade(idade))
-
+*/
 //alert(soma(5, 10));
 
 /*var d = new Date();
